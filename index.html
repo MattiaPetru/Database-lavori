@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AAA Cercasi lavoro</title>
+  <link rel="stylesheet" href="style.css" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+  <h1>AAA Cercasi Lavoro</h1> <!--Titolo sito-->
+  <p>Se sei alla ricerca del tuo nuovo impiego della vita prova a compilare qui sotto!</p>
+  <div id="contenitoreRicerca">
+    <form><!--form per la ricerca del lavoro-->
+      <input type="text" id="posizioneLavorativa" placeholder="Posizione lavorativa" />
+      <input type="text" id="posizioneGeografica" placeholder="Posizione Geografica" />
+      <label for="button"></label>
+      <input type="button" value="Cerca lavoro" id="button" onclick="cerca()" />
+    </form>
+  </div>
+  <div id="numeroRisultati"></div>
+
+  <ul id="risultati"></ul>
+
+  <script src="scaricabile.js"></script>
+</body>
+
+</html>

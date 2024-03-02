@@ -1,0 +1,80 @@
+* {
+  /*Global Reset*/
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(158, 241, 235);
+  font-family: Kanit;
+  background-image: url(cornice-da-scrivania-con-elementi_23-2148604882.jpg);
+  background-size: cover;
+}
+
+h1 {
+  text-align: center;
+  margin: 15px;
+}
+
+p {
+  text-align: center;
+}
+
+#contenitoreRicerca {
+  display: flex;
+  justify-content: center;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 15px;
+  margin-bottom: 1.5rem;
+  border-radius: 0.5rem;
+  border: solid 1px;
+  border-color: #949494;
+  box-shadow: 0 0.5rem 1rem rgba(45, 45, 45, 0.12),
+    0 0.25rem 0.5rem rgba(45, 45, 45, 0.16), 0 0 0.125rem rgba(45, 45, 45, 0.2);
+  max-width: 900px;
+  min-width: 735px;
+  width: 100%;
+}
+
+form {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+input {
+  border: none;
+  background: rgb(228, 227, 227);
+  border-radius: 0.3rem;
+  padding: 0.75rem 1rem;
+  margin: 5px;
+  margin-left: 25px;
+  font-family: Kanit;
+}
+
+#button {
+  display: flex;
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 0.875rem;
+  padding: 0.75rem 1rem;
+  background-color: #2557a7;
+  border: 0.06rem solid transparent;
+  border-radius: 0.5rem;
+  color: #fff;
+  text-align: center;
+  min-width: 94px;
+  font-weight: 400;
+}
+
+#button:hover {
+  background-color: #1c84ff;
+}
+
+#risultati,
+#numeroRisultati {
+  text-align: center;
+}
